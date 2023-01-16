@@ -1,0 +1,118 @@
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+    
+
+    .Quiz
+    {
+        width: 500px;
+        height: 500px;
+        background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+       position: absolute;
+       top: 4%;
+       box-shadow: 0 0 10px black;
+       padding: 40px;
+       border-radius: 20px;
+       text-align: center;
+       left: 30%; 
+      
+    } 
+
+
+@media (width<=1000px ) {
+     .Quiz {width:98%;
+        height: 93%;
+        left: 1%;
+
+    }
+} 
+ 
+
+.quizHeader
+{
+ color: white;
+   
+    
+}
+#questions
+{
+    color: white;
+    font-size: 16px;
+
+}
+#finishBtn
+{
+    background: blue;
+    color: white;
+    font-weight: 200;
+    cursor: pointer;
+    outline: none;
+    border: none;
+     font-size: 20px;
+     margin-top: 20px;
+     padding-top: 10px;
+     padding-bottom:10px;
+     width: 400px;
+     position: absolute;
+     top: 84%;
+     left: 5%;
+     width: 90%;
+}
+#quizChoose
+{
+    color: blue;
+    font-size: 50px;
+    margin-left: 500px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.quizAnswer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+.btnChoose 
+{
+    width: 80%;
+    background-color: lightblue;
+    margin-top: 10px;
+    border: none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-left: 3px;
+    cursor: pointer;
+    color: black;
+    /* position: fixed; */
+
+}
+/* .btnChoose:nth-child(1){
+    position: absolute;
+    width: 80%;
+ */
+
+
+.btnChoose:active,
+.btnChoose:focus
+{
+ border: 2px solid blue ;
+  color:black;
+  background-color: yellow;
+}
+
+  @media (width>=300px) {
+    .btnChoose 
+      {
+        width: 98%;
+      }
+  }
+

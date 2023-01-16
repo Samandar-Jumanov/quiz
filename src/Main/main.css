@@ -1,0 +1,28 @@
+body
+{
+    background-color: lightblue;
+    width: 100vw;
+    height: 100vh;
+}
+.main
+{
+    width: 400px;
+    height: 500px;
+}
+.mainBtn
+{
+    background: blue;
+    color: white;
+    font-weight: 200;
+    cursor: pointer;
+    outline: none;
+    border: none;
+     font-size: 20px;
+     margin-top: 20px;
+     padding-top: 10px;
+     padding-bottom:10px;
+     width: 200px;
+     position: absolute;
+     left: 40%;
+     top: 30%;
+}
